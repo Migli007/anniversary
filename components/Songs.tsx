@@ -203,9 +203,9 @@ export const CloseIcon = () => {
 
 const cards = [
   {
-    description: "Lana Del Rey",
-    title: "Summertime Sadness",
-    src:  "https://www.j-14.com/wp-content/uploads/2023/09/chaewon-le-sserafim-.jpg?fit=4666%2C3111&quality=86&strip=all",
+    description: "Dua Lipa",
+    title: "Love Again",
+    src:  "/loveagain.jpg",
     ctaText: "Visit",
     ctaLink: "https://ui.aceternity.com/templates",
     content: () => {
@@ -226,9 +226,9 @@ const cards = [
     },
   },
   {
-    description: "Babbu Maan",
-    title: "Mitran Di Chhatri",
-    src:  "https://www.j-14.com/wp-content/uploads/2023/09/chaewon-le-sserafim-.jpg?fit=4666%2C3111&quality=86&strip=all",
+    description: "Chainsmokers ft. Coldplay",
+    title: "Something just like this ",
+    src:  "/somethinglikethis.jpg",
     ctaText: "Visit",
     ctaLink: "https://ui.aceternity.com/templates",
     content: () => {
@@ -249,9 +249,9 @@ const cards = [
   },
 
   {
-    description: "Metallica",
-    title: "For Whom The Bell Tolls",
-    src:  "https://www.j-14.com/wp-content/uploads/2023/09/chaewon-le-sserafim-.jpg?fit=4666%2C3111&quality=86&strip=all",
+    description: "Perfect",
+    title: "Ed Sheeran",
+    src:  "/perfect.jpg",
     ctaText: "Visit",
     ctaLink: "https://ui.aceternity.com/templates",
     content: () => {
@@ -271,9 +271,31 @@ const cards = [
     },
   },
   {
-    description: "Lord Himesh",
-    title: "Aap Ka Suroor",
-    src: "https://www.j-14.com/wp-content/uploads/2023/09/chaewon-le-sserafim-.jpg?fit=4666%2C3111&quality=86&strip=all",
+    description: "Dionela, jay R",
+    title: "Sining",
+    src: "/sining.jpg",
+    ctaText: "Visit",
+    ctaLink: "https://ui.aceternity.com/templates",
+    content: () => {
+      return (
+        <p>
+          Himesh Reshammiya, a renowned Indian music composer, singer, and
+          actor, is celebrated for his distinctive voice and innovative
+          compositions. Born in Mumbai, India, he has become a prominent figure
+          in the Bollywood music industry. <br /> <br /> His songs often feature
+          a blend of contemporary and traditional Indian music, capturing the
+          essence of modern Bollywood soundtracks. With a career spanning over
+          two decades, Himesh Reshammiya has released numerous hit albums and
+          singles that have garnered him a massive fan following both in India
+          and abroad.
+        </p>
+      );
+    },
+  },
+  {
+    description: "Myles Smith",
+    title: "Stargazing",
+    src: "/stargazing.jpg",
     ctaText: "Visit",
     ctaLink: "https://ui.aceternity.com/templates",
     content: () => {
