@@ -16,9 +16,9 @@ export default function Home() {
       </div>
       
       <div className="bg-black h-full" >
-      <div className="relative flex justify-center items-center flex-col overflow-hidden mix-auto sm:px:10 px-5 pt-5 pb-10">
+      <div className="relative flex justify-center items-center flex-col overflow-hidden mix-auto sm:px:10 px-5 pt-10 pb-10">
         <div className="max-w-7xl w-full text-2xl text-white font-bold">
-          Our Songs
+          Songs that remind me of you
        </div>
       </div>
         <Songs />
@@ -34,11 +34,12 @@ export default function Home() {
        </div>
       </div>
         <Memory />
-       <div className="relative flex justify-center items-center flex-col overflow-hidden mix-auto sm:px:10 px-5 pt-5 pb-10">
+       <div className="relative flex justify-center items-center flex-col overflow-hidden mix-auto sm:px:10 px-5 pt-5 pb-4">
         <div className="max-w-7xl w-full text-2xl text-white font-bold">
           What I want to say 
        </div>
       </div>
+      <Letter />
     </div>
   </div>
     

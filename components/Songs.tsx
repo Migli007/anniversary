@@ -206,21 +206,14 @@ const cards = [
     description: "Dua Lipa",
     title: "Love Again",
     src:  "/loveagain.jpg",
-    ctaText: "Visit",
-    ctaLink: "https://ui.aceternity.com/templates",
+    ctaText: "play",
+    ctaLink: "https://open.spotify.com/track/4rPkN1FMzQyFNP9cLUGIIB?si=b6b8e068a508427e",
     content: () => {
       return (
-        <p>
-          Lana Del Rey, an iconic American singer-songwriter, is celebrated for
-          her melancholic and cinematic music style. Born Elizabeth Woolridge
-          Grant in New York City, she has captivated audiences worldwide with
-          her haunting voice and introspective lyrics. <br /> <br /> Her songs
-          often explore themes of tragic romance, glamour, and melancholia,
-          drawing inspiration from both contemporary and vintage pop culture.
-          With a career that has seen numerous critically acclaimed albums, Lana
-          Del Rey has established herself as a unique and influential figure in
-          the music industry, earning a dedicated fan base and numerous
-          accolades.
+        <p className="font-semibold text-xl sm:text-lg">
+          never have I ever met somebody like you <br />
+          used to be afraid of love and what it might do <br />
+          but goddamn, you got me in love again <br />
         </p>
       );
     },
@@ -229,21 +222,18 @@ const cards = [
     description: "Chainsmokers ft. Coldplay",
     title: "Something just like this ",
     src:  "/somethinglikethis.jpg",
-    ctaText: "Visit",
-    ctaLink: "https://ui.aceternity.com/templates",
+    ctaText: "play",
+    ctaLink: "https://open.spotify.com/track/1dNIEtp7AY3oDAKCGg2XkH?si=2c21114249084ee5",
     content: () => {
       return (
-        <p>
-          Babu Maan, a legendary Punjabi singer, is renowned for his soulful
-          voice and profound lyrics that resonate deeply with his audience. Born
-          in the village of Khant Maanpur in Punjab, India, he has become a
-          cultural icon in the Punjabi music industry. <br /> <br /> His songs
-          often reflect the struggles and triumphs of everyday life, capturing
-          the essence of Punjabi culture and traditions. With a career spanning
-          over two decades, Babu Maan has released numerous hit albums and
-          singles that have garnered him a massive fan following both in India
-          and abroad.
-        </p>
+        <p className="font-semibold text-xl sm:text-lg">
+        Im not looking for somebody with superhuman gifts <br /> 
+        some superhero <br />
+        some fairy tail bliss <br />
+        just somebody I can turn to <br />
+        somebody I can kiss <br />
+        I want something just like this 
+      </p>
       );
     },
   },
@@ -252,21 +242,16 @@ const cards = [
     description: "Perfect",
     title: "Ed Sheeran",
     src:  "/perfect.jpg",
-    ctaText: "Visit",
-    ctaLink: "https://ui.aceternity.com/templates",
+    ctaText: "play",
+    ctaLink: "https://open.spotify.com/track/3P3pw6C19j31Rnzgo3JG7o?si=a4552201b7374945",
     content: () => {
       return (
-        <p>
-          Metallica, an iconic American heavy metal band, is renowned for their
-          powerful sound and intense performances that resonate deeply with
-          their audience. Formed in Los Angeles, California, they have become a
-          cultural icon in the heavy metal music industry. <br /> <br /> Their
-          songs often reflect themes of aggression, social issues, and personal
-          struggles, capturing the essence of the heavy metal genre. With a
-          career spanning over four decades, Metallica has released numerous hit
-          albums and singles that have garnered them a massive fan following
-          both in the United States and abroad.
-        </p>
+        <p className="font-semibold text-xl sm:text-lg">
+        well I found a woman, stronger than anyone I know <br />
+        she shares my dreams, I hope that someday I'll share her home <br />
+        I found a lover, to carry more than just my secrets <br />
+        to carry love, to carry children of our own <br />
+      </p>
       );
     },
   },
@@ -274,21 +259,20 @@ const cards = [
     description: "Dionela, jay R",
     title: "Sining",
     src: "/sining.jpg",
-    ctaText: "Visit",
-    ctaLink: "https://ui.aceternity.com/templates",
+    ctaText: "play",
+    ctaLink: "https://open.spotify.com/track/1imaIe1NEAaWnLF0BY0V6F?si=fcd7e196fb284302",
     content: () => {
       return (
-        <p>
-          Himesh Reshammiya, a renowned Indian music composer, singer, and
-          actor, is celebrated for his distinctive voice and innovative
-          compositions. Born in Mumbai, India, he has become a prominent figure
-          in the Bollywood music industry. <br /> <br /> His songs often feature
-          a blend of contemporary and traditional Indian music, capturing the
-          essence of modern Bollywood soundtracks. With a career spanning over
-          two decades, Himesh Reshammiya has released numerous hit albums and
-          singles that have garnered him a massive fan following both in India
-          and abroad.
-        </p>
+        <p className="font-semibold text-xl sm:text-lg">
+        Ikaw ay tila sining sa museong 'di naluluma <br />
+        Binibini kong ginto hanggang kaluluwa <br />
+        Gonna keep you like the nu couché <br />
+        All my life<br /> <br />
+        At kung sa tingin mo na ang oras mo'y lumipas na<br />
+        Ako'y patuloy na mararahuyo sa ganda<br />
+        I'd still kiss you every single day<br />
+        All my life
+      </p>
       );
     },
   },
@@ -296,21 +280,38 @@ const cards = [
     description: "Myles Smith",
     title: "Stargazing",
     src: "/stargazing.jpg",
-    ctaText: "Visit",
-    ctaLink: "https://ui.aceternity.com/templates",
+    ctaText: "play",
+    ctaLink: "https://open.spotify.com/track/3Vr3zh0r7ALn8VLqCiRR10?si=2707f0b5363944e0",
     content: () => {
       return (
-        <p>
-          Himesh Reshammiya, a renowned Indian music composer, singer, and
-          actor, is celebrated for his distinctive voice and innovative
-          compositions. Born in Mumbai, India, he has become a prominent figure
-          in the Bollywood music industry. <br /> <br /> His songs often feature
-          a blend of contemporary and traditional Indian music, capturing the
-          essence of modern Bollywood soundtracks. With a career spanning over
-          two decades, Himesh Reshammiya has released numerous hit albums and
-          singles that have garnered him a massive fan following both in India
-          and abroad.
-        </p>
+        <p className="font-semibold text-xl sm:text-lg">
+        Take my heart, don't break it <br />
+        Love me to my bones <br />
+        All this time I wasted <br />
+        You were right there all along <br />
+        You and I stargazing <br />
+        Intertwining souls <br />
+        We were never strangers <br />
+        You were right there all along 
+      </p>
+      );
+    },
+  },
+  {
+    description: "One Republic",
+    title: "Something I need",
+    src: "/something.jpg",
+    ctaText: "play",
+    ctaLink: "https://open.spotify.com/track/5aIZ2jtxZ4o4GHQXTybkIa?si=3219938308784553",
+    content: () => {
+      return (
+        <p className="font-semibold text-xl sm:text-lg">
+        In this world full of people, there's one killing me <br />
+        And if we only die once, I wanna die with you <br />
+        <br />
+        If we only die once, I wanna die with<br />
+        If we only live once, I wanna live with you
+      </p>
       );
     },
   },
