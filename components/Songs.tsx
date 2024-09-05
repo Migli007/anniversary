@@ -248,7 +248,7 @@ const cards = [
       return (
         <p className="font-semibold text-xl sm:text-lg">
         well I found a woman, stronger than anyone I know <br />
-        she shares my dreams, I hope that someday I'll share her home <br />
+        she shares my dreams, I hope that someday I&apos;ll share her home <br />
         I found a lover, to carry more than just my secrets <br />
         to carry love, to carry children of our own <br />
       </p>
@@ -264,13 +264,13 @@ const cards = [
     content: () => {
       return (
         <p className="font-semibold text-xl sm:text-lg">
-        Ikaw ay tila sining sa museong 'di naluluma <br />
+        Ikaw ay tila sining sa museong &apos;di naluluma <br />
         Binibini kong ginto hanggang kaluluwa <br />
         Gonna keep you like the nu couché <br />
         All my life<br /> <br />
-        At kung sa tingin mo na ang oras mo'y lumipas na<br />
-        Ako'y patuloy na mararahuyo sa ganda<br />
-        I'd still kiss you every single day<br />
+        At kung sa tingin mo na ang oras mo&apos;y lumipas na<br />
+        Ako&apos;y patuloy na mararahuyo sa ganda<br />
+        I&apos;d still kiss you every single day<br />
         All my life
       </p>
       );
@@ -285,7 +285,7 @@ const cards = [
     content: () => {
       return (
         <p className="font-semibold text-xl sm:text-lg">
-        Take my heart, don't break it <br />
+        Take my heart, don&apos;t break it <br />
         Love me to my bones <br />
         All this time I wasted <br />
         You were right there all along <br />
@@ -306,7 +306,7 @@ const cards = [
     content: () => {
       return (
         <p className="font-semibold text-xl sm:text-lg">
-        In this world full of people, there's one killing me <br />
+        In this world full of people, there&apos;s one killing me <br />
         And if we only die once, I wanna die with you <br />
         <br />
         If we only die once, I wanna die with<br />
